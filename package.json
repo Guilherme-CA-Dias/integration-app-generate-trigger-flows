@@ -1,0 +1,10 @@
+{
+  "name": "flow-management-scripts",
+  "version": "1.0.0",
+  "description": "Scripts to manage integration flows",
+  "main": "stop-flows.js",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "dotenv": "^16.0.0"
+  }
+}
