@@ -32,7 +32,8 @@ console.log('JWT token generated successfully')
 
 console.log('Initializing Integration App client...')
 const integrationApp = new IntegrationAppClient({
-    token: token
+    token: token,
+    apiUri: process.env.API_BASE_URL
 })
 console.log('Integration App client initialized')
 
